@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A wrapper Rails gem of ToastrJS lib'
   spec.description   = 'Simple toast notifications.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/hanhdt/happy_toastr'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
