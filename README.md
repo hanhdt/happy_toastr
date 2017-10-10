@@ -1,4 +1,4 @@
-# HappyToastr
+# happy_toastr
 
 A wrapper Rails gem of ToastrJS lib - simple toast notifications.
 [Check more configurations](https://github.com/CodeSeven/toastr)
