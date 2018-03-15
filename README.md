@@ -8,30 +8,44 @@ A wrapper Rails gem of ToastrJS lib - simple toast notifications.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'happy_toastr'
+    gem 'happy_toastr'
 ```
 
 And then execute:
 
-    $ bundle
+    $bundle
 
 Or install it yourself as:
 
-    $ gem install happy_toastr
+    $gem install happy_toastr
 
 ## Usage
 
 ### Include javascript and stylesheet
-In the app/assets/javascripts/application.js
 
-```javascript
-//= require toastr
-```
+* In the app/assets/javascripts/application.js
 
-In the app/assets/stylesheets/applications.css
-```css
- *= require toastr
-```
+    ```javascript
+        //= require toastr
+    ```
+
+    or minified asset
+
+    ```javascript
+        //= require toastr.min
+    ```
+
+* In the app/assets/stylesheets/applications.css
+
+    ```css
+        *= require toastr
+    ```
+
+    or minified asset
+
+    ```css
+        *= require toastr.min
+    ```
 
 ## Contributing
 

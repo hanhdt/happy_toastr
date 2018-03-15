@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    happy_toastr (0.1.2)
+    happy_toastr (0.1.3)
 
 GEM
   remote: https://rubygems.org/
